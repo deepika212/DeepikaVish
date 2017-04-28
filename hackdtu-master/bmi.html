@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head lang="en">
+<title>BMI</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+ <!--load font awesome-->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+<style>
+    body  
+	{
+       margin: 0px;
+     
+    
+      background-image: url("http://resize.indiatvnews.com/en/centered/newbucket/750_533/2016/11/woman-doing-yoga-exercises-on-the-beach-1098-1449-1479789556.jpg");
+     background-repeat: no-repeat;
+     background-position: cover;
+     background-attachment: fixed;
+	 background-size: cover;
+    h1
+    {
+	 color:#FFFFFF;
+    }
+	h3
+    {
+	 color:#FFFFFF;
+    }
+	h4
+    {
+	 color:#FFFFFF;
+    }
+	h5
+    {
+	 color:#FFFFFF;
+    }
+ </style>
+
+
+
+</head>
+
+<body id="Home">
+<div id="hero">
+<div class="hero-overlay">
+<nav class="navbar navbar-default navbar-fixed-top">
+		<!-- Main Menu -->
+		<div class="collapse navbar-collapse" id="mainNavBar">
+		    <ul class="nav navbar-nav">
+			   <li class="active"><a href="#Home">Home</a></li>
+			   <li><a href="#About">About</a></li>
+			   <li><a href="#Contact">Contact</a></li>
+
+			   <li class="dropdown">
+			       <a href="#" class="dropdown-toggle" data-toggle="dropdown" >More<span class="caret"></span></button></a>
+			   	   <ul class="dropdown-menu">
+			   	       <li><a href="#Feedback">Feedback</a></li>
+			   	       <li><a href="#Gallery">Gallery</a></li>
+			   	       <li><a href="#FAQs">FAQs</a></li>
+			   	   </ul>
+			   </li>
+			</ul>
+		</div>
+</nav>
+</div>
+</div>
+<br>
+\
+    <h1><center>What Is BMI?</center></h1>
+    <br>
+<p><em>BMI is used as a screening tool to indicate whether a person is underweight, overweight, obese or a healthy weight for their height.
+
+If a person's BMI is out of the healthy BMI range, their health risks may increase significantly.</em></p>
+<br>
+
+<p><strong>BMI values are age-independent and the same for both sexes. However, BMI may not correspond to the same degree of fatness in different populations due to different body proportions.Body mass index (BMI) is a measure of body fat based on your weight in relation to your height, and applies to most adult men and women aged 20 and over. For children aged 2 and over, BMI percentile is the best assessment of body fat.</strong><br>
+
+BMI does not measure body fat directly. However, research indicates that BMI correlates to direct measures of body fat such as underwater weighing and dual-energy X-ray absorptiometry (DXA), and is considered an inexpensive and easy-to-perform alternative for these.</p>
+  
+
+  <div data-role="main" class="ui-content">
+    <a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all ui-icon-check ui-btn-icon-left">Calculate BMI</a>
+
+    <div data-role="popup" id="myPopup" class="ui-content" style="min-width:500px;">
+      <form method="post" action="demoform.asp">
+        <div>
+          <h3>Calculate your BMI here:</h3>
+          
+           <button type="button" id="btn1">Imperial</button>
+        <button type="button" id="btn2">Metric</button><br><hr>
+        <div id="test1">Your Weight(kg):</div>
+        <input type="text" placeholder="Enter here"><br>
+        <div id="test2">Your Height(cm):</div>
+        <input type="text" placeholder="Enter here"><br><br>
+        <button class="btn btn-success" type="submit">Submit</button>
+        <script type="text/javascript" src="C:\Users\HIMANI\Documents\HTML and CSS\jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="jquer.js"></script>
+        </div>
+      </form>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
